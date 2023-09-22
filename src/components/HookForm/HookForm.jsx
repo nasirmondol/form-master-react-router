@@ -13,7 +13,7 @@ const HookForm = () => {
             <form className="gap-5" onSubmit={handleSubmitForm}>
                 {/* <input value={name} onChange={handleNameChange} placeholder="name" className="" type="text" name="name" /> */}
                 <br />
-                <input {...emailState} placeholder="email" className="" type="text" name="email" />
+                <input  {...emailState} placeholder="email" className="bg-black text-white" type="text" name="email" />
                 <br />
                 <input placeholder="phone" className="" type="text" name="phone" />
                 <br /><input type="submit" value="Submit" />
